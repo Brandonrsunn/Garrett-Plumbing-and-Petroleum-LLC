@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Garrett Plumbing and Petroleum LLC - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Garrett Plumbing and Petroleum LLC home">
+        <img src="assets/images/logo.png" alt="Garrett Plumbing and Petroleum LLC logo" onerror="this.onerror=null;this.src='assets/images/logo-placeholder.png'">
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="cta-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image:url('assets/images/hero.jpg');">
+      <div class="container hero-content">
+        <h1>Reliable Plumbing Solutions & Petroleum Services</h1>
+        <p>Serving residential, commercial, and industrial clients with integrity, efficiency, and safety.</p>
+        <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+      </div>
+    </section>
+
+    <section class="quick-stats container" aria-label="quick stats">
+      <div class="stat">
+        <div class="stat-number">24/7</div>
+        <div class="stat-label">Emergency Service</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">Licensed</div>
+        <div class="stat-label">Insured & Certified</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Garrett Plumbing and Petroleum LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
